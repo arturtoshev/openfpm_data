@@ -95,7 +95,7 @@ else()
 
 endif()
 
-set_property(TARGET mem_map PROPERTY CUDA_ARCHITECTURES 60 75)
+set_property(TARGET mem_map PROPERTY CUDA_ARCHITECTURES 75)
 
 if (CUDA_FOUND)
 
